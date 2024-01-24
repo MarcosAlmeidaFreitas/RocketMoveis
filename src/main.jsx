@@ -6,14 +6,14 @@ import GlobalStyle  from './styles/global'
 
 import theme from './styles/theme.js'
 
-import { Perfil } from './pages/Perfil'
+import { SignIn } from './pages/SignIn'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Perfil />
+      <SignIn/>
     </ThemeProvider>
   </React.StrictMode>,
 )
