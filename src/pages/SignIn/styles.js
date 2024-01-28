@@ -1,36 +1,33 @@
 import styled from "styled-components";
 
-
 export const Container = styled.div`
+  /* background-color: red; */
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
-  #form h1{
-    color: ${({theme}) => theme.COLORS.ROSE};
-    text-align: center;
+  #container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2rem;
   }
 
-  #form p{
-    color: ${({theme}) => theme.COLORS.WHITE_P};
-    text-align: center;
-  }
-
-  img{
-    height: 100vh;
+  >img{
     width: 100%;
+    height: 100vh;
   }
-  
 `;
 
 export const Form = styled.form`
-  /* width: 100%;
-  height: 100vh; */
-  
-  h2{
-    text-align: center;
-    color: ${({theme}) => theme.COLORS.WHITE};
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+  width: 100%;
+  margin-top: 4.8rem;
+
+  > h2{
+    margin-bottom: 4.8rem;
   }
 
+  > button{
+    margin-top: 2.4rem;
+  }
 `;
