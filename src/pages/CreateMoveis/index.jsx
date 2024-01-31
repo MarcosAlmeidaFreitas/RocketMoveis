@@ -2,6 +2,9 @@ import { Container, Form } from './styles'
 import { Header } from '../../components/Header';
 import { TextArea } from '../../components/TextArea';
 import { Input } from '../../components/Input';
+import { Section } from '../../components/Section';
+import { Tag } from '../../components/Tag';
+
 
 export function CreateMoveis(){
   return(
@@ -14,6 +17,10 @@ export function CreateMoveis(){
           <Input placeholder='Sua nota (de 0 a 5)'></Input>
         </div>
         <TextArea placeholder='Observações'></TextArea>
+        <Section title='Marcadores'>
+          <Tag title='Express'></Tag>
+          <Tag title='Node'></Tag>
+        </Section>
       </Form>
       
     </Container>

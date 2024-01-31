@@ -6,7 +6,7 @@ export default{
     CAPTION: "#F4EDE8",
     PARAGRAPH: "#CAC4CF",
     TEXT_BUTTON: "#312E38",
-    PARAGRAPH_2: "#999591",
+    COLOR_H3: "#999591",
     BACKGROUND: "#1C1B1E"
   }
 }

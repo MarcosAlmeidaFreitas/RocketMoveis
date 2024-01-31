@@ -29,6 +29,11 @@ export default createGlobalStyle`
     font-weight: 500;
   }
 
+  h3{
+    color: ${({ theme }) => theme.COLORS.COLOR_H3};
+    font-size: 2rem;
+  }
+
   p, strong{
     color: ${({theme}) => theme.COLORS.PARAGRAPH};
     font-size: 1.4rem;
