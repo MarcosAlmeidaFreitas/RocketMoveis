@@ -23,11 +23,9 @@ export const Container = styled.div`
     padding-left: 1rem;
 
     color: ${({theme}) => theme.COLORS.INPUT_TEXT};
-
-    &:hover{
-      border: none;
-      
-    }
+    
+    /* Usado para retirar a seleção do input quando clica */
+    outline: none;
   }
 
   >svg{

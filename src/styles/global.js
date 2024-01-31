@@ -29,7 +29,7 @@ export default createGlobalStyle`
     font-weight: 500;
   }
 
-  p{
+  p, strong{
     color: ${({theme}) => theme.COLORS.PARAGRAPH};
     font-size: 1.4rem;
   }
