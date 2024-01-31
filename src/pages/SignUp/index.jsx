@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 import { FiMail, FiLock } from 'react-icons/fi'
 
-export function SignUp(){
+export function SignIn(){
   return(
     <Container>
       <div id='container_form'>
@@ -30,7 +30,7 @@ export function SignUp(){
             icon= {FiLock}
           />
           <Button title='Entrar'></Button>
-          {/* <Link to={''}>Criar conta</Link> */}
+          {/* <Link to={''}>Voltar para o login</Link> */}
         </Form>
       </div>
 
