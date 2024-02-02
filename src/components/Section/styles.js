@@ -11,5 +11,8 @@ export const Container = styled.section`
     display: flex;
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_SECTION};
     padding: 1rem;
+    /* div{
+      background-color: red;
+    } */
   }
 `;

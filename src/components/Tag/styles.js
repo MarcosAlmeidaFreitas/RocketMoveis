@@ -2,15 +2,18 @@ import styled from "styled-components";
 
 
 export const Container = styled.div`
-  /* background-color: ; */
-  color: ${({theme}) => theme.COLORS.PARAGRAPH};
-  padding: 1rem;
-  display: flex;
-  align-items: center;
   
+  color: ${({theme}) => theme.COLORS.PARAGRAPH};
+  
+  div{
+    background-color: ${({theme}) => theme.COLORS.INPUT_BACKGROUND};
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+  }
+
   svg{
     color: ${({theme})=> theme.COLORS.COLOR_CONTRAST};
-    margin-left: .5rem;
-    
+    margin-left: 0.5rem;
   }
 `;
