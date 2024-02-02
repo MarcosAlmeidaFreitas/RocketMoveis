@@ -10,6 +10,6 @@ export const Container = styled.textarea`
   /* Retirar a possibilidade do usuário aumentar o text_area */
   resize: none;
   border: none;
+  /* Retirar a borda do componente quando está selecionado */
   outline: none;
-  
 `;

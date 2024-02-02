@@ -4,7 +4,7 @@ import { TextArea } from '../../components/TextArea';
 import { Input } from '../../components/Input';
 import { Section } from '../../components/Section';
 import { Tag } from '../../components/Tag';
-
+import { CiSquareRemove } from "react-icons/ci";
 
 export function CreateMoveis(){
   return(
@@ -18,11 +18,10 @@ export function CreateMoveis(){
         </div>
         <TextArea placeholder='Observações'></TextArea>
         <Section title='Marcadores'>
-          <Tag title='Express'></Tag>
-          <Tag title='Node'></Tag>
+          <Tag title='Express' icon={CiSquareRemove}></Tag>
+          <Tag title='Node' icon={CiSquareRemove}></Tag>
         </Section>
       </Form>
-      
     </Container>
   );
 }

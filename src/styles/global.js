@@ -32,6 +32,7 @@ export default createGlobalStyle`
   h3{
     color: ${({ theme }) => theme.COLORS.COLOR_H3};
     font-size: 2rem;
+    font-weight: bold;
   }
 
   p, strong{
