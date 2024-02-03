@@ -20,7 +20,7 @@ export const Container = styled.div`
     background: transparent;
     border: 0;
     padding: 1.2rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
 
     color: ${({theme}) => theme.COLORS.INPUT_TEXT};
     

@@ -18,8 +18,9 @@ export function CreateMoveis(){
         </div>
         <TextArea placeholder='Observações'></TextArea>
         <Section title='Marcadores'>
-          <Tag title='Express' icon={CiSquareRemove}></Tag>
-          <Tag title='Node' icon={CiSquareRemove}></Tag>
+          <Tag title='Express' isactive={true}></Tag>
+          <Tag title='Node' isactive={true}></Tag>
+          <Tag title='NovaTag' isactive={false}></Tag>
         </Section>
       </Form>
     </Container>

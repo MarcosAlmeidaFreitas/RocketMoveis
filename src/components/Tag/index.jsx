@@ -1,8 +1,17 @@
 import { Container } from './styles'
 import { ButtonText } from '../ButtonText'
-import { CiSquareRemove } from "react-icons/ci";
+import { FiMinus } from "react-icons/fi";
+import { FiPlus } from 'react-icons/fi'
 
-export function Tag({icon : Icon, title}){
+export function Tag({ title, isactive}){
+  let Icon;
+  
+  if(isactive === true){
+    Icon = FiMinus;
+  }else{
+    Icon = FiPlus;
+  }
+  
   return(
     <Container>
       <div>
