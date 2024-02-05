@@ -6,10 +6,11 @@ export const Container = styled.div`
   color: ${({theme}) => theme.COLORS.PARAGRAPH};
   
   div{
-    background-color: ${({theme}) => theme.COLORS.INPUT_BACKGROUND};
+    background-color: ${({theme, $isactive}) => $isactive ? theme.COLORS.INPUT_BACKGROUND : theme.COLORS.BACKGROUND_SECTION };
     border-radius: .5rem;
     display: flex;
     align-items: center;
+    border: ${({ $isactive }) => $isactive ? 'none' : 'dashed'}
   }
 
   svg{

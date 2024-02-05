@@ -21,4 +21,12 @@ export const Form = styled.div`
     gap: 2rem;
     margin-bottom: 1rem;
   }
+
+  #div_buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
 `;

@@ -9,5 +9,4 @@ export const Container = styled.button`
   padding: 2rem;
   border-radius: 1rem;
   border: none;
-  
 `;

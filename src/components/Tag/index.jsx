@@ -13,7 +13,7 @@ export function Tag({ title, isactive}){
   }
   
   return(
-    <Container>
+    <Container $isactive={isactive}>
       <div>
         {title}
         {Icon && <Icon size={20}/>}
