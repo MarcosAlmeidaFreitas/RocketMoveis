@@ -1,8 +1,13 @@
+import { Container, Body } from './styles'
 import { Header } from "../../components/Header";
+
 export function Preview(){
   return(
-    <Header>
-
-    </Header>
+    <Container>
+      <Header></Header>
+      <Body>
+        <h2>Interestelar</h2>
+      </Body>
+    </Container>
   );
 }

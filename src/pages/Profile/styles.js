@@ -5,8 +5,7 @@ export const Container = styled.div`
     width: 100%;
     height: 144px;
 
-    background-color: ${({theme}) => theme.COLORS.COLOR_CONTRAST};
-    opacity: 0.05;
+    background-color: ${({theme}) => theme.COLORS.COLOR_CONTRAST_TRANSPARENT};
   }
 `;
 

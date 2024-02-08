@@ -1,6 +1,7 @@
 export default{
   COLORS: {
     COLOR_CONTRAST: "#FF859B",
+    COLOR_CONTRAST_TRANSPARENT: "hsla(349.18, 100%, 76.08%, 0.1)",
     INPUT_TEXT: "#948F99",
     INPUT_BACKGROUND: "#262529",
     CAPTION: "#F4EDE8",

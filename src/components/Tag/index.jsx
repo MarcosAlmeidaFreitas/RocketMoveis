@@ -10,6 +10,7 @@ export function Tag({ title, isactive}){
     Icon = FiMinus;
   }else{
     Icon = FiPlus;
+    title = 'Novo marcador'
   }
   
   return(
